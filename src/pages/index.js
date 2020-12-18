@@ -23,7 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            engineering student at the high institute of computer science
+            {config.data1}
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
